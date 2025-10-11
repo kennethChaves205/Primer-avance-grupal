@@ -27,3 +27,6 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Para que no suba mi configuracion local ###
+*.iml
