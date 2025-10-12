@@ -19,15 +19,13 @@ public class Usuario {
     public void setNombreCompleto(String nombreCompleto) {this.nombreCompleto = nombreCompleto; }
 
     public String getCorreo() { return correo; }
-    public void setCorreo(String correo) {this.correo = correo; }
-
     public String getContrasena() { return contrasena; }
-    public void setContrasena(String contraseña) {this.contrasena = contrasena; }
-
     public String getTelefono() { return telefono; }
-    public void setTelefono(String telefono) {this.telefono = telefono; }
-
     public String getRol() { return rol; }
+
+    public void setCorreo(String correo) {this.correo = correo; }
+    public void setContrasena(String contraseña) {this.contrasena = contrasena; }
+    public void setTelefono(String telefono) {this.telefono = telefono; }
     public void setRol(String rol) {this.rol = rol; }
 
     public String toString() {

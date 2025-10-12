@@ -2,7 +2,7 @@ package Logica;
 
 public class DiccionarioEmocional {
     private String palabra; // Tiene que ser única
-    private String emocion; // Aquí podría ir por ej: "frustración", "urgencia", "neutralidad" [cite: 159]
+    private String emocion; // Aquí podría ir por ej: "frustración", "urgencia", "neutralidad"
 
     // Constructor
     public DiccionarioEmocional(String objetoPalabra, String objetoEmocion) {
