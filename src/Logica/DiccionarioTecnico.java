@@ -25,4 +25,10 @@ public class DiccionarioTecnico {
                 "\nCategoría Técnica='" + categoriaTecnica + '\'' +
                 "\n"+'}';
     }
+
+    public boolean equals(DiccionarioTecnico diccionarioTecnicoComparar) {
+        if (diccionarioTecnicoComparar == null) return false;
+        return this.palabra.equals(diccionarioTecnicoComparar.palabra);
+    }
+
 }

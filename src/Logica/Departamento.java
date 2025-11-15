@@ -31,4 +31,9 @@ public class Departamento {
                 "\n"+'}';
     }
 
+    public boolean equals(Departamento departamentoComparar) {
+        if (departamentoComparar == null) return false;
+        return this.nombre.equals(departamentoComparar.nombre);
+    } //equals
+
 }

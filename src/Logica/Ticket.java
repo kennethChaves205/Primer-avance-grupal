@@ -6,12 +6,15 @@ public class Ticket {
     private String estado; // Aquí tendríamos que escribir: "nuevo", "en progreso", "resuelto"
     private Usuario usuario; // Este es para leer el usuario
     private Departamento departamento; // Este es para leer el departamento
+    private static int contador = 1;
+    private int id;
 
     // Constructor
     public Ticket(String objetoAsunto, String objetoDescripcion, String objetoEstado, Usuario usuario, Departamento departamento) {
-        this.asunto = objetoAsunto;
-        this.descripcion = objetoDescripcion;
-        this.estado = objetoEstado;
+        id = contador++;
+        asunto = objetoAsunto;
+        descripcion = objetoDescripcion;
+        estado = objetoEstado;
         this.usuario = usuario;
         this.departamento = departamento;
     }
@@ -39,4 +42,14 @@ public class Ticket {
                 "\nDepartamento='" + departamento.getNombre() +
                 "\n"+'}';
     }
+
+    public boolean equals(Ticket ticketComparar) {
+        if (ticketComparar == null) return false;
+        return this.id == ticketComparar.id;
+    }
+
+    public int getId() {
+        return id;
+    }
+
 }

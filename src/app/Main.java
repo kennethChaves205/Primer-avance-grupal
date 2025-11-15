@@ -53,6 +53,15 @@ public class Main {
                 "\n" + DicTec.toString() +
                 "\n" + DicEmo.toString());
 
+        private static boolean existeUsuario(Usuario usuario) {
+            for (Usuario u : usuarios) {
+                if (u.equals(usuario)) {
+                    return true;
+                }
+            }
+            return false;
+        }
+
 
     }
 }

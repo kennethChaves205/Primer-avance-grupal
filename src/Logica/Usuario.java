@@ -36,4 +36,10 @@ public class Usuario {
                 "\ntelefono='" + telefono + '\'' +
                 "\n"+'}';
     }
-}
+
+    public boolean equals(Usuario usuarioComparar) {
+        if (usuarioComparar == null) return false;
+        return this.correo.equals(usuarioComparar.correo);
+    } //equals
+
+} //Usuario

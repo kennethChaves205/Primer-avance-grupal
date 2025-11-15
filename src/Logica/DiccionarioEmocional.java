@@ -26,4 +26,9 @@ public class DiccionarioEmocional {
                 "\n"+'}';
     }
 
+    public boolean equals(DiccionarioEmocional diccionarioEmocionalComparar) {
+        if (diccionarioEmocionalComparar == null) return false;
+        return this.palabra.equals(diccionarioEmocionalComparar.palabra);
+    }
+
 }
