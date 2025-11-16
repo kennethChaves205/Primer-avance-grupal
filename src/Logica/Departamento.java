@@ -36,4 +36,13 @@ public class Departamento {
         return this.nombre.equals(departamentoComparar.nombre);
     } //equals
 
+    private static boolean existeDepartamento(Departamento depto) {
+        for (Departamento d : departamentos) {
+            if (d.equals(depto)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
 }
