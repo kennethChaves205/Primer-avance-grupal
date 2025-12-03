@@ -1,5 +1,8 @@
 package logica;
 
+import Logica.DiccionarioEmocional;
+import Logica.DiccionarioTecnico;
+
 import java.util.ArrayList;
 
 public class GestorDiccionarios {

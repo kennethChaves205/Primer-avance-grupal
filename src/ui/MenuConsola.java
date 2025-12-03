@@ -9,7 +9,7 @@ public class MenuConsola {
     private final GestorUsuarios gestorUsuarios = new GestorUsuarios();
     private final GestorDepartamentos gestorDepartamentos = new GestorDepartamentos();
     private final GestorTickets gestorTickets = new GestorTickets();
-    private final GestorDiccionarios gestorDiccionarios = new GestorDiccionarios();
+    private final logica.GestorDiccionarios gestorDiccionarios = new logica.GestorDiccionarios();
     private final Scanner sc = new Scanner(System.in);
 
     public void iniciar() {
