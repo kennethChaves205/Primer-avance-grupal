@@ -1,4 +1,4 @@
-package Logica;
+package Logica.entidades;
 
 public class Departamento {
     private String nombre; //Tiene que ser único

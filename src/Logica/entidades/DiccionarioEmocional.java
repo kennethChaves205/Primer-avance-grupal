@@ -1,4 +1,4 @@
-package Logica;
+package Logica.entidades;
 
 public class DiccionarioEmocional {
     private String palabra; // Tiene que ser única

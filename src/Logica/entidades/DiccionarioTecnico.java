@@ -1,4 +1,4 @@
-package Logica;
+package Logica.entidades;
 
 public class DiccionarioTecnico {
     private String palabra; // Tiene que ser única

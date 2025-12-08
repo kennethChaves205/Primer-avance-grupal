@@ -1,4 +1,5 @@
-package Logica;
+// src/logica/entidades/Ticket.java
+package Logica.entidades;
 
 public class Ticket {
     private static int contador = 1;
@@ -18,6 +19,7 @@ public class Ticket {
         this.departamento = departamento;
     }
 
+    // GETTERS
     public int getId() { return id; }
     public String getAsunto() { return asunto; }
     public String getDescripcion() { return descripcion; }
@@ -25,9 +27,11 @@ public class Ticket {
     public Usuario getUsuario() { return usuario; }
     public Departamento getDepartamento() { return departamento; }
 
+    // SETTERS
     public void setEstado(String estado) { this.estado = estado; }
+    public void setId(int id) { this.id = id; }  //
 
-    @Override
+
     public String toString() {
         return "Ticket #" + id + " {\n" +
                 "  Asunto: '" + asunto + "'\n" +

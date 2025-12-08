@@ -1,4 +1,4 @@
-package Logica;
+package Logica.entidades;
 
 public class Usuario {
     private String nombreCompleto;
